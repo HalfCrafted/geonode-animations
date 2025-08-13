@@ -1,7 +1,3 @@
-"Analyze all of the contents of the folder. The .py files are working examples of geometry node tree generators in Blender 4.4 that create a geometry node animation when run. Try to understand everything that makes these correct and avoid common mistakes as described in error-prevention.md. Once you have a framework of how these work to construct node trees, let me know when you’re ready to proceed with creating new scripts for geonode animations.
-
-Feel free to create new Python files not only to run the tree creation script but also as diagnostic tools if there are errors or if additional context is needed. Execute as many commands as necessary to achieve the task. You may refer to the internet or Blender 4.4 documentation if needed, but these scripts should provide plenty of context."
-
 Microsoft Windows [Version 10.0.22631.5624]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -2339,5 +2335,4 @@ Using 1 GEMINI.md file                                               accepting e
  ███            █████████  ██████████ ██████   ██████ █████ ██████   █████ █████
 ░░░███         ███░░░░░███░░███░░░░░█░░██████ ██████ ░░███ ░░██████ ░░███ ░░███
   ░░░███      ███     ░░░  ░███  █ ░  ░███░█████░███  ░███  ░███░███ ░███  ░███
-
     ░░░███   ░███          ░██████    ░███░░███ ░███  ░███  ░███░░███░███  ░███

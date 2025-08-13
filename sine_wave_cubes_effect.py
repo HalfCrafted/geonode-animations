@@ -152,7 +152,7 @@ def build_sine_wave_cubes_tree(ng):
     cube = new_node(nodes, 'GeometryNodeMeshCube', location=(800, 100))
 
     inst_on_pts = new_node(nodes, 'GeometryNodeInstanceOnPoints', location=(1000, 100))
-    links.new(resample.outputs['Geometry'], inst_on_pts.inputs['Points'])
+    links.new(resample.outputs['Curve'], inst_on_pts.inputs['Points'])
     links.new(cube.outputs['Mesh'], inst_on_pts.inputs['Instance'])
     links.new(rot_vec.outputs['Vector'], inst_on_pts.inputs['Rotation'])
     links.new(scale_vec.outputs['Vector'], inst_on_pts.inputs['Scale'])
