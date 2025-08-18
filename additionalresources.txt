@@ -1,0 +1,3 @@
+“Bake Instance Animation” add-on
+https://extensions.blender.org/add-ons/bake-instance-animation/?utm_source=chatgpt.com
+export using Animation Mode → set to Active Actions merged
